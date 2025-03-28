@@ -39,11 +39,11 @@ main >div> h2{
     grid-template-columns: repeat(2, 1fr);
     gap:20px
 }
-.nov_nav{
+.bolder{
     font-weight: bolder;
 }
-.nov{
-display: unset;
+.vis{
+    display: unset;
 }
 @media (max-width:460px) {
 

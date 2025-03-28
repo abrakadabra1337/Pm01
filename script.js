@@ -1,0 +1,15 @@
+let nov=document.getElementById('nov')
+let priziv=document.getElementById('Prizivnik')
+let contr=document.getElementById('contr')
+let zapas=document.getElementById('zapas')
+let nov_cl=document.getElementsByClassName('nov')
+let priziv_cl=document.getElementsByClassName('priziv')
+let contr_cl=document.getElementsByClassName('contr')
+let zapas_cl=document.getElementsByClassName('nov')
+
+nov.classList.add('bolder')
+nov_cl.classList.add('vis')
+nov.addEventListener('click',()=>{
+nov.classList.add('bolder')
+    nov_cl.classList.add('vis')
+})

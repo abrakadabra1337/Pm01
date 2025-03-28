@@ -26,8 +26,24 @@ nav{
     padding: 1%;
 }
 main{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+main >div> h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.popolam{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px
+}
+.nov_nav{
+    font-weight: bolder;
+}
+.nov{
+display: unset;
 }
 @media (max-width:460px) {
 

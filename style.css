@@ -42,8 +42,13 @@ main >div> h2{
 .bolder{
     font-weight: bolder;
 }
+
 .vis{
-    display: unset;
+    display: none;
+}
+footer{
+    position: relative;
+    bottom: 0;
 }
 @media (max-width:460px) {
 

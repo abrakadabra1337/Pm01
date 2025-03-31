@@ -6,50 +6,94 @@
 header {
     display: flex;
     align-items: center;
-    background:#364a01 ;
+    background: #364a01;
     color: red;
     padding: 0.5%;
+}
+
+#buter {
+    display: none;
+    margin-left: auto;
+    margin-right: 5px;
 }
 
 .logo {
     width: 60px;
     height: 40px;
 }
-.address{
-    margin-left:auto;
+
+.address {
+    margin-left: auto;
 }
-nav{
+
+nav {
     display: flex;
     background: #dfdfdf;
     justify-content: center;
     gap: 15px;
     padding: 1%;
 }
-main{
+
+main {
     margin-left: 20%;
     margin-right: 20%;
 }
 
-main >div> h2{
+main > div > h2 {
     margin-top: 1%;
     margin-bottom: 1%;
 }
-.popolam{
+
+.popolam {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:20px
+    gap: 20px
 }
-.bolder{
+
+.bolder {
     font-weight: bolder;
 }
 
-.vis{
+.vis {
     display: none;
 }
-footer{
-    position: relative;
-    bottom: 0;
-}
-@media (max-width:460px) {
 
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: gray;
+    align-content: center;
+}
+.m_address{
+    display: none;
+}
+
+@media (max-width: 460px) {
+    #buter{
+        display: unset;
+    }
+    nav{
+        text-align: center;
+        font-size: 24px;
+    display: none;
+    }
+    nav>hr{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .address{
+        display: none;
+    }
+    .popolam{
+        grid-template-columns: 1fr;
+    }
+    main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+.m_address{
+    display: unset;
+}
 }

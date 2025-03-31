@@ -59,3 +59,17 @@ tel.addEventListener('click', ()=>{
         .then(()=>{console.log('успешно')})
         .catch(err=>{console.log('ошибка')})
 })
+let buter=document.getElementById('buter')
+let nav=document.getElementById('nav')
+let act=0
+buter.addEventListener('click',()=>{
+
+    if (act===0){
+        nav.style.display='unset'
+        act=1
+    }else {
+        nav.style.display='none'
+        act=0
+    }
+
+})

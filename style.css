@@ -62,7 +62,9 @@ main > div > h2, h3 {
     margin-top: 2%;
     margin-bottom: 1%;
 }
-
+main>div>p{
+    margin-top: 10px;
+}
 main > div > img {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -135,7 +137,11 @@ footer {
     .address {
         display: none;
     }
-
+footer>.address{
+    display: unset;
+    text-align: center;
+    font-size: 18px;
+}
     .popolam {
         grid-template-columns: 1fr;
     }

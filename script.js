@@ -61,7 +61,9 @@ tel.addEventListener('click', ()=>{
 })
 let buter=document.getElementById('buter')
 let nav=document.getElementById('nav')
-let act=0
+let act=1
+nav.style.display='unset'
+
 buter.addEventListener('click',()=>{
 
     if (act===0){

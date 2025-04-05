@@ -82,7 +82,11 @@ main > div > img {
     margin-top: 10px;
     font-weight: bolder;
 }
-
+.citata{
+    margin-left: 4%;
+    padding-left: 10px;
+    box-shadow: -10px 0 gray;;
+}
 ul, ol {
     margin-top: 10px;
     margin-bottom: 10px;
